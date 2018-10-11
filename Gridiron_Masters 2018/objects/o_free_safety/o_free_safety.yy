@@ -1,0 +1,29 @@
+{
+    "id": "31d6d347-d386-48d8-b20d-810bcd46cf40",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "o_free_safety",
+    "eventList": [
+        
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "a3557e60-ed9f-441c-bfd6-084d1979a41b",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": null,
+    "solid": false,
+    "spriteId": "7cfc1b73-4cc1-460b-80f2-69a85b94cd2c",
+    "visible": true
+}

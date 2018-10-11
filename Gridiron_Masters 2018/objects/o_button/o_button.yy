@@ -1,0 +1,131 @@
+{
+    "id": "d38012c1-d992-4f23-b741-985b5276b62d",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "o_button",
+    "eventList": [
+        {
+            "id": "413687cd-22b4-41a8-b868-0fec03cb0013",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d38012c1-d992-4f23-b741-985b5276b62d"
+        },
+        {
+            "id": "7b60cb9c-7095-48ac-b7b1-66278e42ef67",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "d38012c1-d992-4f23-b741-985b5276b62d"
+        },
+        {
+            "id": "124ee3dc-8f34-4227-87d2-c6f8ab9adea9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "d38012c1-d992-4f23-b741-985b5276b62d"
+        },
+        {
+            "id": "8db5421b-45d9-413d-aa29-658b9bb91480",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 6,
+            "m_owner": "d38012c1-d992-4f23-b741-985b5276b62d"
+        },
+        {
+            "id": "35b2a0a8-aba4-4da2-9833-0407be67ea9c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 6,
+            "m_owner": "d38012c1-d992-4f23-b741-985b5276b62d"
+        },
+        {
+            "id": "e3dfc346-f8c7-4405-8fde-9f0b6a73f9c9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 6,
+            "m_owner": "d38012c1-d992-4f23-b741-985b5276b62d"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "62b809da-5f0c-4499-bae6-1c789b67c2d9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Default",
+            "varName": "button_text",
+            "varType": 2
+        },
+        {
+            "id": "07c0ec81-e069-40ae-b20a-acafe824ff7d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "$FFFFFFFF",
+            "varName": "text_color",
+            "varType": 7
+        },
+        {
+            "id": "4ccd5d01-7ad2-4ccd-b8bf-2cdbfffd5ab7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "scr_default_click_action",
+            "varName": "click_action",
+            "varType": 5
+        }
+    ],
+    "solid": false,
+    "spriteId": "886ea7ff-1bf0-4c52-ae9c-32f4ce8c67e3",
+    "visible": true
+}

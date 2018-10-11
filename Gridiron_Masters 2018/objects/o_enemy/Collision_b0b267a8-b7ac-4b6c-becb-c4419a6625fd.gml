@@ -1,5 +1,5 @@
 /// @description hold ball
-if has_ball == false and o_player.has_ball == false {
+if has_ball == false and o_home_parent.has_ball == false {
 	has_ball = true;
 		//Get first evading path
 	//Get a random Y coordinate in room

@@ -47,7 +47,7 @@ if meter < 0 {
 }
 
 //add speed if meter is more than 0
-if meter > 0 and keyboard_check_pressed(vk_control){
+if meter > 0 and o_input.sprint_key {
 	maxhspd += 1
 	maxvspd += 1
 } 
@@ -55,5 +55,14 @@ if meter > 0 and keyboard_check_pressed(vk_control){
 if hspd == 0 and vspd == 0 {
 	maxhspd = 5;
 	maxvspd = 5;
+}
+
+//CREATE BALL
+//if we have the ball then we can create it or "drop" it on the field
+if o_input.drop_key {
+	if has_ball == true and o_enemy.has_ball == false {
+		instance_create_depth(x+10, y, 0, o_ball);
+		has_ball = false;
+	}
 }
 

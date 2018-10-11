@@ -1,8 +1,9 @@
 /// @description Draw self and path
+draw_sprite(s_shadow, 1, x-1, y+8);
 draw_self();
 
 //draw state
-if state <= 0 {
+if state < 0 {
 	draw_text(x, y-10, string(state) )
 }
 //draw pursuit path
@@ -16,13 +17,13 @@ if state == pursuing_the_ball {
 }
 
 //draw text when hit in a 10r circle
-if collision_circle(x, y, 10, o_player, false, true) {
+if collision_circle(x, y, 10, o_solid_parent, false, true) {
 	draw_text(x, y-20, "hit")
 }
 
 //draw ball if possesed
-if has_ball == true and o_player.has_ball == false {
-	draw_sprite(s_ball, 0, x+5, y)
+if has_ball == true and o_home_parent.has_ball == false {
+	draw_sprite(s_bal, 0, x+5, y)
 }
 
 //Draw path for when running away with the ball
