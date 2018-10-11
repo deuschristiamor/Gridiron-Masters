@@ -1,7 +1,7 @@
 //CHOOSE FORMATION
 if global.game_state == global.pick_play_state {
-	instance_create_depth(x, y, 0, o_button);
-} else instance_destroy(o_button);
+	
+} 
 
 
 
