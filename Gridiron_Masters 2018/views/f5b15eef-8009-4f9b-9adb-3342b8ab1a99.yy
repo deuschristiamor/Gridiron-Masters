@@ -11,7 +11,8 @@
         "5a425779-549c-47aa-94f9-3a180f78ef0a",
         "6d6af359-dfb0-4d05-abe5-4b64cd06d671",
         "a1308d70-32b1-4001-a638-5a2eeae5d695",
-        "d38012c1-d992-4f23-b741-985b5276b62d"
+        "d38012c1-d992-4f23-b741-985b5276b62d",
+        "81121eef-4c58-4a4f-80ed-47417bf15c44"
     ],
     "filterType": "GMObject",
     "folderName": "System Objects",

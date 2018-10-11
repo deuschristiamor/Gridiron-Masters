@@ -1,17 +1,17 @@
 //CHOOSE FORMATION
 if global.game_state == global.pick_play_state {
-	
-} 
+	instance_create_depth(x, y-240, depth, o_menu);
+} else instance_destroy(o_menu);
 
 
 
 
 
+//__________________________________________________________________
 if global.game_state == global.pick_play_state {
-	if keyboard_check_pressed(vk_numpad1) {
+	if o_menu.text == "Shotgun Normal" {
 		formation_offense = f_gun;
 		global.play_offense_ready = true;
-		show_message("Offense Ready")
 	}
 }
 		if formation_offense == f_gun and global.game_state == global.spawn_state {
@@ -29,10 +29,9 @@ if global.game_state == global.pick_play_state {
 		}			
 
 if global.game_state == global.pick_play_state {
-	if keyboard_check_pressed(vk_numpad2) {
+	if o_menu.text == "Shotgun Split" {
 		formation_offense = f_gun_split;
 		global.play_offense_ready = true;
-		show_message("Offense Ready")
 	}
 }
 		if formation_offense == f_gun_split and global.game_state == global.spawn_state {
@@ -49,10 +48,9 @@ if global.game_state == global.pick_play_state {
 			instance_create_depth(x-80, y, 0, o_wide_reciever3)
 		}
 if global.game_state == global.pick_play_state {
-	if keyboard_check_pressed(vk_numpad3) {
+	if o_menu.text == "I Formation" {
 		formation_offense = f_i;
 		global.play_offense_ready = true;
-		show_message("Offense Ready")
 	}
 }
 		if formation_offense == f_i and global.game_state == global.spawn_state {
@@ -70,10 +68,9 @@ if global.game_state == global.pick_play_state {
 		}
 
 if global.game_state == global.pick_play_state {
-	if keyboard_check_pressed(vk_numpad4) {
+	if o_menu.text == "I Formation Spread" {
 		formation_offense = f_i_spread;
 		global.play_offense_ready = true;
-		show_message("Offense Ready")
 	}
 }
 			if formation_offense == f_i_spread and global.game_state == global.spawn_state {

@@ -1,8 +1,13 @@
 if global.game_state == global.pick_play_state {
-		if keyboard_check_pressed(vk_numpad5) {
+	instance_create_depth(x+240, y-240, depth, o_menu_def);
+} else instance_destroy(o_menu_def);
+
+
+
+if global.game_state == global.pick_play_state {
+	if o_menu_def.text == "4-3 Stack" {
 			formation_defense = f_4_3;
 			global.play_defense_ready = true;
-			show_message("Defense Ready")
 		}
 }
 			if formation_defense == f_4_3 and global.game_state == global.spawn_state {

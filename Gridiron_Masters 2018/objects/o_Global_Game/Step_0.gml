@@ -1,7 +1,6 @@
 /// 
 
 
-
 //CHANGE PLAYER
 if (o_input.switch_key) {
 	global.controlled_player += 1;
